@@ -2,23 +2,29 @@ The purpose of this project is to compare the relative performance of AVL, red-b
 as their counterparts with a hash table front end. We shall focus on the search and insert operations and require all
 keys to be distinct.
 
-2. Programming Environment
+2. Programming Environment:
 Program is implemeted in C++ using g++ compiler
 
 3. Steps to Follow
+
 a. Code and debug the class AVL.
+
 b. Code and debug the class AVLHash. This class uses a hash table with each slot containing an AVL tree
 (or a pointer to an AVL tree). The hash table, itself, is a one-dimensional array whose size, s, is specified
 by the user. Use the hash function key mod s. Note that the search method for AVLHash, for example, simply does a 
 search in the AVL tree stored in the slot “key mod s”.
+
 c. Code and debug the class RedBlackHash, which is similar to AVLHash except that
 each slot is a redblack tree (or a pointer to a red-black tree). Do not write your own red-black code. Instead use either
 TreeMap(Java) or map(C++). Documentaries of these classes can be reachable from the links below.
 http://www.cplusplus.com/reference/stl/map/
 http://docs.oracle.com/javase/6/docs/api/java/util/TreeMap.html
+
 d. Code and debug the class BTree. The BTree order should be a parameter to the class constructor.
+
 e. Code and debug the class BTreeHash, which is similar to AVLHash except that Btrees are used in place
 of AVL trees.
+
 
 1. Running modes:
 
