@@ -20,8 +20,8 @@ d. Code and debug the class BTree. The BTree order should be a parameter to the 
 e. Code and debug the class BTreeHash, which is similar to AVLHash except that Btrees are used in place
 of AVL trees.
 
-2. Input/Output Requirements
 1. Running modes:
+
 (i) random mode:
 Your program should input the number n, generate a random permutation of the keys 1 through n,
 insert these n keys and associated values in this order into each of AVL, AVLHash, RedBlack,
@@ -31,6 +31,7 @@ experiment 10 times and report the average time taken for the inserts as well as
 each of the six data structures. You may use any random permutation code you have access to. For
 example, the STL function random-shuffle may be used. The command line for this mode is:
 $ dictionary –r s b-tree-order
+
 (ii) user input mode:
 Get the (key, value) pairs from the input file assuming keys and values are non-negative integers. Input
 file starts with an integer, n, followed by n lines. Each line includes a key and a value separated by a
