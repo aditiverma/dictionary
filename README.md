@@ -1,5 +1,4 @@
-
-1.The purpose of this project is to compare the relative performance of AVL, red-black, and B-trees as well
+The purpose of this project is to compare the relative performance of AVL, red-black, and B-trees as well
 as their counterparts with a hash table front end. We shall focus on the search and insert operations and require all
 keys to be distinct.
 
